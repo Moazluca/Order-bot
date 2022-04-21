@@ -25,7 +25,7 @@ client.on("ready", () => {
 });
 
 
-const prefix = setting.prefix;
+const prefix = &
 const ochannel = setting.ochannel;
 const orole = setting.orole;
 const oline = setting.oline;
@@ -76,5 +76,5 @@ ${args}
 })
 
 client.login(process.env.token).catch(e => {
-return console.log("Invalid Token")    
+return console.log("")    
 })
